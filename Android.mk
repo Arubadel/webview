@@ -3,7 +3,7 @@ LOCAL_PATH := $(call my-dir)
 ifdef PRODUCT_PREBUILT_WEBVIEWCHROMIUM
 # Don't include anything if the product is building webviewchromium from source.
 
-$(shell mkdir -p out/target/common/obj/JAVA_LIBRARIES/webviewchromium_intermediates)
+$(shell mkdir -p out/target/common/obj/JAVA_LIBRARIES/android_webview_java_intermediates)
 $(shell cp webview/javalib.jar out/target/common/obj/JAVA_LIBRARIES/android_webview_java_intermediates/javalib.jar)
 
 include $(CLEAR_VARS)
