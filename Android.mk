@@ -8,7 +8,7 @@ $(shell cp webview/javalib.jar out/target/common/obj/JAVA_LIBRARIES/android_webv
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libwebviewchromium
-LOCAL_MODULE_OWNER := samsung
+LOCAL_MODULE_OWNER := cyanogenmod
 LOCAL_SRC_FILES := libwebviewchromium.so
 LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)
 LOCAL_MODULE_TAGS := optional
